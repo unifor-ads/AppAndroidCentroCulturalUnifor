@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_form_CrudObras"
+            android:textSize="24sp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Título da Obra"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite o título da obra"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição da Obra"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a descrição da obra"
+            android:inputType="textMultiLine"
+            android:minLines="4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adicionar Foto"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/buttonAddPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adicionar Foto"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewObra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+        <!-- RelativeLayout para alinhar o TextView e o Switch -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/textViewIsVisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obra visível após salvar?"
+                android:textSize="18sp"/>
+
+            <Switch
+                android:id="@+id/switchIsVisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar Obra"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+</ScrollView>

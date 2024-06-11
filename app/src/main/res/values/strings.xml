@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Centro Cultural Unifor</string>
+    <string name="titulo_form_cadastro">Cadastre-se</string>
+    <string name="titulo_form_login">Login do Usuário</string>
+    <string name="texto_form_login">Não tem uma conta? Cadastre-se</string>
+    <string name="titulo_form_EditUserInfo">Dados do Usuário</string>
+    <string name="titulo_form_CrudObras">Cadastro de Obra</string>
+    <string name="titulo_form_EditObras">Edição de Obra</string>
+</resources>
