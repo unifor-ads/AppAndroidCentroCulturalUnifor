@@ -1,6 +1,7 @@
 # Museu da Unifor - App Android
 
 Bem-vindo ao aplicativo oficial do Museu da Universidade de Fortaleza (Unifor)! Este aplicativo foi desenvolvido para oferecer uma experiência interativa e informativa aos visitantes do museu, fornecendo acesso a informações sobre exposições e muito mais.
+Este é um projeto desenvolvido na cadeira T197-84 Desenv plataformas móveis do curso Análise e Desenvolvimento de Sistemas ministrado pelo professor Thiago Narak Carvalho de Oliveira do semestre 2024.1.
 
 ## Recursos Principais
 
@@ -26,3 +27,9 @@ Se você gostaria de contribuir para o desenvolvimento deste aplicativo, fique �
    
 6. **Abra um Pull Request**
 
+## Integrantes da Equipe
+
+- Caio de Sousa Moreira
+- Drakson Bezerra Santos
+- Felipe Pereira Braga dos Santos
+- Italo Fontenele Silva
